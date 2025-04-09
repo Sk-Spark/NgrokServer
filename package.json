@@ -1,0 +1,19 @@
+{
+  "name": "ngrok-server",
+  "version": "1.0.0",
+  "description": "A custom Ngrok-like server built with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/http-proxy": "^1.17.0",
+    "ts-node": "^10.0.0"
+  }
+}
